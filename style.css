@@ -1,58 +1,8 @@
-/* =====================================
-Template Name: 	Mediplus.
-Author Name: Naimur Rahman
-Website: http://wpthemesgrid.com/
-Description: Mediplus - Doctor HTML Template.
-Version:	1.1
-========================================*/   
-/*======================================
-[ CSS Table of contents ]
-* Global CSS
-* Header CSS
-	+ Topbar
-	+ Logo
-	+ Widget
-	+ Main Menu
-	+ Search
-* Hero Slider CSS
-* Schedule CSS
-* Feautes CSS
-* Fun Facts CSS
-* Why Choose CSS
-* Call to Action CSS
-* Portfolio CSS
-	+ Portfolio Single CSS
-* Services CSS
-* Testimonials CSS
-* Departments CSS
-* Pricing Table CSS
-* Clients CSS
-* Team CSS
-	+ Single Team
-* Blog CSS
-	+ Latest Blog CSS
-	+ Blog Single CSS
-	+ Blog Sidebar CSS
-* Appointment CSS
-* Login CSS
-* Register CSS
-* Faq CSS
-* Contact Us CSS
-* Error 404 CSS
-* Mail Success CSS
-* Newsletter CSS
-* Doctor Calendar CSS
-* About Us CSS
-* Footer CSS
-========================================*/ 
-/*=============================
-	Global CSS 
-===============================*/
+
 body{
     font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size:14px;
-	color:#888;
 }
 .pro-features {
 	position: fixed;
@@ -905,7 +855,7 @@ body{
 	padding:120px 0;
 }
 .fun-facts{
-	background:url('img/fun-bg.jpg');
+	background:url('img/bobamayegun-pics/artsbanner.png');
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -1011,7 +961,7 @@ body{
 .why-choose .choose-right{
 	height:100%;
 	width:100%;
-	background-image:url('img/video-bg.jpg');
+	background-image:url('img/bobamayegun-pics/press-banner-iicopy.jpg');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -1071,60 +1021,11 @@ body{
 	Start Call to action CSS
 =================================*/
 .call-action{
-	background-image:url('img/call-bg.jpg');
-	background-size:cover;
-	background-position:center;
-	position:relative;
-	background-repeat:no-repeat;
-}
-.call-action .content{
-	text-align:center;
-	padding:100px 265px;
-}
-.call-action .content h2{
-	color:#fff;
-	font-size:32px;
-	font-weight:600;
-	line-height:46px;
-}
-.call-action .content p {
-	color: #fff;
-	margin: 30px 0px;
-	font-size: 15px;
-}
-.call-action .content .btn{
-	background:#fff;
-	margin-right:20px;
-	font-weight:500;
-	border:1px solid #fff;
-	color:#4f46e5;
-}
-.call-action .content .btn:before{
-	background:#4f46e5;
-}
-.call-action .content .btn:hover{
-	background:#4f46e5;
-	color:#fff;
-}
-.call-action .content .btn:last-child{
-	margin-right:0px;
-}
-.call-action .content .second {
-	border: 1px solid #fff;
-	color: #fff;
-	background: transparent;
-	color: #fff !important;
-}
-.call-action .content .second:before{
-	background:#fff;
-}
-.call-action .content .second:hover{
-	color:#4f46e5;
-	border-color:transparent;
-	background:#fff;
-}
-.call-action .content .second i{
-	margin-left:10px;
+	background-color: rgb(30 27 36);
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 /*===============================
 	Start Call to action CSS
