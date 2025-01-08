@@ -3,7 +3,21 @@ body{
     font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size:14px;
+	scrollbar-width: 2px;
 }
+::-webkit-scrollbar {
+	width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1;
+  }
+    ::-webkit-scrollbar-thumb {
+	background: #3c163d;
+  }
+    ::-webkit-scrollbar-thumb:hover {
+	background: #3c163d;
+  }
 .pro-features {
 	position: fixed;
 	right: -300px;
@@ -4069,6 +4083,33 @@ body{
 	display:inline-block;
 	margin-left:4px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-gradient-to-r{
+	background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+.from-purple-500{
+	--tw-gradient-from: #a855f7 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgba(168, 85, 247, 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.to-purple-900 {
+    --tw-gradient-to: #581c87 var(--tw-gradient-to-position);
+}
+
 /*=========================
 	End Footer CSS
 ===========================*/
