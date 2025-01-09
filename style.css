@@ -4140,3 +4140,21 @@ body{
 .mission-section p{
 	margin: 0;
 }
+.arts-page-banner{
+	background: linear-gradient(135deg, var(--aboutprimary), var(--secondary) ),
+	url(./img/bobamayegun-pics/artsbanner.png) no-repeat center center / cover;
+}
+.charity-page-banner{
+	background: linear-gradient(135deg, var(--aboutprimary), var(--secondary) ),
+	url(./img/bobamayegun-pics/charity-banner.jpg) no-repeat center center / cover;
+}
+.cbl-left{
+	background-image: url(./img/bobamayegun-pics/charity-content-1.jpg);
+}
+.cbl-right{
+	background: linear-gradient(135deg, var(--charitybanner), var(--charitybannerii) ),
+	url(./img/bobamayegun-pics/charity-conmtent-2.jpg) no-repeat center center / cover;
+}
+.charity-main p{
+padding: 0;
+}
