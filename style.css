@@ -4158,3 +4158,22 @@ body{
 .charity-main p{
 padding: 0;
 }
+.policy-page-banner{
+	background: linear-gradient(135deg, var(--aboutprimary), var(--secondary) ),
+	url(./img/bobamayegun-pics/faqii.jpg) no-repeat center center / cover;
+}
+.networking-page-banner{
+	background: url(./img/bobamayegun-pics/policy-bg.jpg) no-repeat center center / cover;
+}
+.news-page-banner{
+	background: linear-gradient(135deg, var(--aboutprimary), var(--secondary) ),
+	url(./img/bobamayegun-pics/social-gatherings/social-g-ix.jpg) no-repeat center center / cover;
+}
+.nbrm-btn{
+	background: #000000; 
+	padding: 15px 30px 15px 30px;
+	transition: .5s ease;
+}
+.nbrm-btn:hover{
+	background: #7b3db6;
+}
