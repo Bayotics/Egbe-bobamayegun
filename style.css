@@ -1149,8 +1149,9 @@ body{
 	border-radius:8px 8px 0 0;
 }
 .pf-details .image-slider img{
-	height:100%;
+	height: 900px;
 	width:100%;
+	object-fit: cover;
 }
 .pf-details .date{
 	background: #971797;
@@ -4159,14 +4160,14 @@ body{
 padding: 0;
 }
 .policy-page-banner{
-	background: linear-gradient(135deg, var(--aboutprimary), var(--secondary) ),
+	background: linear-gradient(135deg, var(--aboutprimary), var(--charitybanner) ),
 	url(./img/bobamayegun-pics/faqii.jpg) no-repeat center center / cover;
 }
 .networking-page-banner{
 	background: url(./img/bobamayegun-pics/policy-bg.jpg) no-repeat center center / cover;
 }
 .news-page-banner{
-	background: linear-gradient(135deg, var(--aboutprimary), var(--secondary) ),
+	background: linear-gradient(135deg, var(--aboutprimary), var(--charitybanner) ),
 	url(./img/bobamayegun-pics/social-gatherings/social-g-ix.jpg) no-repeat center center / cover;
 }
 .nbrm-btn{
@@ -4176,4 +4177,23 @@ padding: 0;
 }
 .nbrm-btn:hover{
 	background: #7b3db6;
+}
+.gallery-page-banner{
+	background: linear-gradient(135deg, var(--aboutprimary), var(--charitybanner) ),
+	url(./img/bobamayegun-pics/gallery-bg.png) no-repeat center center / cover;
+}
+.gallery-bg{
+	transition: transform .4s ease;
+	overflow: hidden;
+}
+.gallery-bg:hover{
+	transform: scale(1.2)
+}
+.pf-details-slider img{
+	width: 100%;
+	height: 500px;
+}
+.partnership-page-banner{
+	background: linear-gradient(135deg, var(--charity), var(--charitybanner) ),
+	url(./img/bobamayegun-pics/partnership-bg.jpeg) no-repeat center center / cover;
 }
