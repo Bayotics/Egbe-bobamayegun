@@ -4216,5 +4216,35 @@ padding: 0;
 	background-color: rgb(80, 18, 80);
 	color: white;
 }
+.membership-select{
+	height: 55px;
+    margin-top: 10px;
+    padding-top: 14px;
+	display: block;
+    width: 100%;
+    background: #1e293b;
+    border-radius: 0.75rem;
+    padding-left: 12px;
+    color: white;
+    border: none;
+}
+.membership-select ul{
+	background: radial-gradient(black, rgb(110, 110, 117));	
+}
+.mem-form-btn button{
+	text-align:center; 
+	padding-left: 30px; 
+	padding-right: 30px; 
+	padding-bottom: 20px; 
+	padding-top: 20px; 
+	background-color: #971797; 
+	color: white; 
+	border: none;
+	font-size: 18PX;
+}
+.mem-form-btn button:hover{
+	background-color: #3d1447;
+}
+
 
 
