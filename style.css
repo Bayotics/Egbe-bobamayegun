@@ -4245,6 +4245,38 @@ padding: 0;
 .mem-form-btn button:hover{
 	background-color: #3d1447;
 }
+.excos-page-banner{
+	background: linear-gradient(135deg, var(--charity), var(--charitybanner) ),
+	url(./img/bobamayegun-pics/excos-bg.jpg) no-repeat center center / cover;
+}
+.epb-one{
+	background-image: url(./img/bobamayegun-pics/members/memberIX.jpg);
+	background-size: cover;
+}
+.epb-two{
+	background-image: url(./img/bobamayegun-pics/members/memberV.jpg);
+	background-size: cover;
+}
+.epb-three{
+	background-image: url(./img/bobamayegun-pics/members/memberX.jpg);
+	background-size: cover;
+}
+.epb-four{
+	background-image: url(./img/bobamayegun-pics/members/memberXI.jpg);
+	background-size: cover;
+}
+.epb-five{
+	background-image: url(./img/bobamayegun-pics/members/memberVI.jpg);
+	background-size: cover;
+}
+.excos-page-banner{
+	background: linear-gradient(135deg, var(--charity), var(--charitybanner) ),
+	url(./img/bobamayegun-pics/excos-bg.jpg) no-repeat center center / cover;
+}
+.donationspage-banner{
+	background: linear-gradient(135deg, var(--charity), var(--charitybanner) ),
+	url(./img/bobamayegun-pics/donations-bg.jpg) no-repeat center center / cover;
+}
 
 
 

@@ -128,7 +128,7 @@ Version:	1.1
 		=================================*/ 
 		$('.portfolio-slider').owlCarousel({
 			autoplay:true,
-			autoplayTimeout: 3000,
+			autoplayTimeout: 3000000,
 			margin:15,
 			smartSpeed:1000,
 			autoplayHoverPause:true,
