@@ -18,6 +18,9 @@ body{
     ::-webkit-scrollbar-thumb:hover {
 	background: #3c163d;
   }
+  .home-slider-heading{
+	font-size: 60px; line-height: 1.5; color: rgb(220, 205, 238); text-align: center;
+  } 
 .pro-features {
 	position: fixed;
 	right: -300px;
@@ -566,12 +569,12 @@ body{
 	margin-top:150px;
 }
 .slider .single-slider h1 {
-	color: #2C2D3F;
-	font-size: 38px;
+	color: #cbbdd1;
+	font-size: 60px;
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
-	line-height: 42px;
+	line-height: 1.5;
 }
 .slider .single-slider h1 span{
 	color:#971797;
@@ -1055,7 +1058,7 @@ body{
 	position:relative;
 }
 .portfolio .single-pf img{
-	height:100%;
+	height: 400px;
 	width:100%;
 }
 .portfolio .single-pf:before{
@@ -4276,6 +4279,343 @@ padding: 0;
 .donationspage-banner{
 	background: linear-gradient(135deg, var(--charity), var(--charitybanner) ),
 	url(./img/bobamayegun-pics/donations-bg.jpg) no-repeat center center / cover;
+}
+.home-slider-btn{
+	margin: auto; width: 20%;
+}
+.home-slider-btn a{
+	font-size: 20px;
+}
+.pillar-heading{
+	padding: 0 100px;
+}
+.why-us-header{
+	display: flex; column-gap: 10px; margin-top: 20px;
+}
+.why-us-container{
+	display: flex; column-gap:70px; margin-top: 40px;
+}
+.why-us-cards{
+	width: 50%;
+}
+.why-us-card{
+	background-color: #26232c; padding-left: 35px; padding-right: 45px; padding-top: 25px; 
+	padding-bottom: 25px; border-radius: 20px; margin-left: 50px;
+}
+.wuc-middle{
+	margin-left: 0;
+}
+.wuc-content{
+	display: flex; column-gap: 16px;
+}
+.wuc-icon{
+	background-color: rgb(22, 22, 22); padding: 10px 12px 10px 12px; border-radius: 15px; height: fit-content;
+}
+.why-us-pics{
+	width: 50%; display: flex; column-gap: 20px;
+}
+.wup-left{
+	width: 50%; border-radius: 30px; background-image: url(./img/bobamayegun-pics/why-us-i.jpeg); 
+	background-size: 100% 100%;
+}
+.wup-right{
+	width: 50%;
+}
+.wup-r-up{
+	height: 47.5%; width: 100%; background-image: url(./img//bobamayegun-pics/banner-img.jpg); 
+	background-size: 100% 100%; border-radius: 30px;
+}
+.wup-r-down{
+	height: 47.5%; width: 100%; background-image: url(./img//bobamayegun-pics/why-us-iii.jpeg); 
+	background-size: 100% 100%; border-radius: 30px; margin-top: 10%;
+}
+.single-pf img{
+	height: 400px;
+}
+.joinus-head{
+	padding: 0 150px 0 150px;
+}
+.joinus-head h1{
+	font-size: 48px; color: black; text-align: center;
+}
+.joinus-grid-main{
+	display: flex; column-gap: 10px; margin-top: 100px; padding: 0 80px 0 80px;
+}
+.joinus-profile-cards{
+	width: 50%;
+}
+.joinus-profile-cards-top{
+	display: flex; column-gap: 20px;
+}
+.jpc-one{
+	width: 50%; padding-bottom: 50px;
+}
+.jpc-header{
+	background-image: url(./img/bobamayegun-pics/social/creative-bg-01.jpg);
+	background-size: 100% 50%; display: flex; justify-content: center;
+	height: 120px; background-repeat: no-repeat;
+}
+.jpc-header img{
+	border-radius: 50%; height: 80px; width: 80px; margin-top: 20px;
+}
+.jpc-content{
+	margin-top: 5px; text-align: center;
+}
+.jpc-content h1{
+	font-size: 20px; color: black;
+}
+.jpc-content p{
+	font-size: 20px; color: black;
+}
+.jpc-btn{
+	padding-left: 10px; padding-right: 10px; 
+	padding-top: 10px; padding-bottom:1px; width: 40%; margin: auto; margin-top: 20px;
+	border-radius: 40px; background-color: #2e2d30; color: white; cursor: pointer; 
+}
+.jpc-btn p{
+	font-size: 16px; 
+	margin-top: 5px;
+	color: white;
+}
+.joinus-community{
+	width: 50%; padding-left: 60px;
+}
+.community-img{
+	width: 90%;
+}
+.community-texts-home h1{
+	font-size: 42px; 
+	color: black;
+}
+.community-texts-home p{
+	margin-top: 16px; 
+	font-size: 18px; 
+	color: #6c6b6e;
+}
+.cth-btn{
+	padding-left: 20px; padding-right: 20px; 
+	padding-top: 15px; padding-bottom:15px; text-align: center; 
+	background-color: purple; width: 50%; margin-top: 30px;
+	border-radius: 50px; color: white; cursor: pointer;
+}
+.cth-btn a{
+	font-size: 16px; margin-top: 5px; 
+	text-align: center;
+}
+.gallery-header-home{
+	display: flex; padding-left: 100px; padding-right: 100px;
+}
+.ghh-headers{
+	width: 50%;
+}
+.ghh-headers h1{
+	font-size: 40px; 
+	color: black;
+}
+.ghh-headers p{
+	font-size: 18px; 
+	color: #6b696e; 
+	margin-top: 10px;
+}
+.ghh-btn{
+	width: 50%;
+}
+.gallery-see-more-btn{
+	padding-left: 10px; padding-right: 10px; 
+	padding-top: 10px; padding-bottom: 10px; text-align: center; 
+	background-color: rgb(135, 43, 196); width: 30%; margin-top: 30px;
+	border-radius: 10px; color: white; cursor: pointer; float: right;
+}
+.gallery-see-more-btn a{
+	font-size: 18px; 
+	margin-top: 10px; 
+	text-align: center;
+}
+.gallery-contents-home{
+	margin-top: 50px; 
+	padding-left: 100px; 
+	padding-right: 100px;
+}
+.gch-top{
+	display: flex; column-gap: 20px;
+}
+.gallery-img-card{
+	width: 25%;
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	height: 250px;	
+}
+.copyright-content{
+	display: flex; 
+	justify-content: space-between;
+	margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************** Mobile ****************** */
+@media only screen and (max-width: 380px) {
+	body{
+		width: auto;
+		padding: 0;
+		margin: 0;
+	}
+	.slider .single-slider:before{
+		opacity: 0.2
+	}
+	.home-slider-btn{
+		margin: auto; 
+		width: 50%;
+	}
+	.home-slider-btn a{
+		font-size: 14px;
+	}
+	.pillar-heading{
+		padding: 0;
+	}
+	.single-fun .d-flex{
+		justify-content: center;
+	}
+	.choose-left{
+		text-align: center;
+	}
+	.why-choose .choose-left h3:before{
+		left: 130px;
+	}
+	.why-us-header{
+		display: block;
+	}
+	.why-us-header h1{
+		font-size: 24px;
+		text-align: center;
+	}
+	.why-us-header p{
+		font-size: 16px;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.cont-paragraph{
+		text-align: center;
+	}
+	.why-us-container{
+		display: block;
+	}
+	.why-us-cards{
+		width: 100%;
+	}
+	.why-us-card{
+		width: 100%;
+        margin-left: 0;
+        text-align: center
+	}
+	.wuc-content{
+		display: block;
+	}
+	.wuc-icon{
+		background-color: transparent;
+	}
+	.why-us-pics{
+		margin-top: 40px;
+		display: block;
+		width: 100%;
+	}
+	.wup-left{
+		width: 100%;
+		height: 400px;
+	}
+	.wup-right{
+		width: 100%;
+		margin-top: 40px;
+	}
+	.wup-r-up{
+		height: 250px;
+	}
+	.wup-r-down{
+		margin-top: 40px;
+		height: 250px;
+	}
+	.portfolio .single-pf img{
+		height: 400px;
+	}
+	.joinus-head{
+		padding: 0 15px 0 15px;
+	}
+	.joinus-head h1{
+		font-size: 28px; color: black; text-align: center;
+	}
+	.joinus-grid-main{
+		display: block;
+		padding: 0 20px 0 20px;
+	}
+	.joinus-profile-cards{
+		width: 100%;
+	}
+	.joinus-profile-cards-top{
+		display: block;
+	}
+	.jpc-one{
+		width: 100%;
+	}
+	.joinus-community{
+		width: 100%;
+		padding: 20px;
+		text-align: center;
+	}
+	.community-img{
+		width: 100%;
+	}
+	.cth-btn{
+		width: 90%;
+		margin-top: 80px;
+	}
+	.gallery-header-home{
+		display: block; padding-left: 10px; padding-right: 10px;
+	}
+	.ghh-headers{
+		width: 100%;
+		text-align: center;
+	}
+	.ghh-btn{
+		width: 100%;
+	}
+	.gallery-see-more-btn{
+		width: 100%;
+	}
+	.gallery-contents-home{
+		padding: 10px;
+		margin-top: 150px;
+	}
+	.gch-top{
+		display: block;
+	}
+	.gallery-img-card{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.newsletter-section-main{
+		margin-top: 40px;
+	}
+	.copyright-content{
+		display: block;
+	}
 }
 
 
