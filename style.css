@@ -4450,8 +4450,79 @@ padding: 0;
 	justify-content: space-between;
 	margin-top: 8px;
 }
-
-
+.mission-section{
+	margin-top: 100px; padding-left: 100px; 
+	padding-right: 100px; padding-bottom: 100px;
+}
+.mission-content{
+	display: flex; column-gap: 35px;
+}
+.mission-left{
+	width: 50%; display: flex; column-gap: 20px;
+}
+.wup-left{
+	width: 50%; border-radius: 30px; background-size: 100% 100%;
+}
+.wup-right{
+	width: 50%;
+}
+.wup-r-up{
+	height: 47.5%; width: 100%; 
+	background-size: 100% 100%; border-radius: 30px;
+}
+.wup-r-down{
+	height: 47.5%; width: 100%; 
+	background-size: 100% 100%; border-radius: 30px; 
+	margin-top: 10%;
+}
+.mission-right{
+	width: 50%; padding: 100px 30px 100px 40px; 
+	background-color: white; 
+	border-radius: 25px;
+}
+.mission-intro{
+	font-size: 16px;
+}
+.mission-right h1{
+	font-size: 2rem; 
+	color: black;
+}
+.mission-paragraph{
+	margin-top: 40px; color: rgb(107, 108, 109); font-size: 15px;
+}
+.about-history{
+	margin-top: 10px; 
+	padding-left: 80px; 
+	padding-right: 80px; 
+	padding-bottom: 10px;
+}
+.ah-content{
+	display: flex;
+}
+.ahc-texts{
+	width: 60%; padding: 50px; background: #ffffff;
+}
+.ahc-texts h1{
+	font-size: 2rem; 
+	color: black;
+}
+.history-paragraph{
+	margin-top: 20px; 
+	color: rgb(107, 108, 109); 
+	font-size: 15px;
+}
+.history-btn{
+	padding-top: 5px; padding-bottom:1px; 
+	background-color: black; width: 40%; margin-top: 30px;
+	border-radius: 0; color: white; cursor: pointer;
+}
+.history-btn p{
+	font-size: 18px; margin-top: 10px; text-align: center;
+}
+.ahc-pic{
+	width:40%;
+	background-size: 100% 100%;
+}
 
 
 
@@ -4615,6 +4686,46 @@ padding: 0;
 	}
 	.copyright-content{
 		display: block;
+	}
+	.page-banner{
+		padding: 100px 30px 100px 30px;
+    	text-align: center;
+	}
+	.mission-section{
+		padding-left: 15px;
+    	padding-right: 15px;
+	}
+	.mission-content{
+		display: block;
+	}
+	.mission-left{
+		display: block;
+		width: 100%;
+	}
+	.mission-right{
+		width: 100%;
+		padding: 50px 20px;
+		margin-top: 40px;
+		text-align: center;
+	}
+	.mission-section p{
+		margin-top: 20px;
+	}
+	.about-history{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.ah-content{
+		display: block;
+	}
+	.ahc-texts{
+		width: 100%;
+		padding: 30px 15px;
+		text-align: center;
+	}
+	.history-btn{
+		width: 75%;
+		margin: auto;
 	}
 }
 
