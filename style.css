@@ -4626,6 +4626,96 @@ padding: 0;
 .policy-content{
 	padding: 100px 70px 100px 70px;
 }
+.networking-content{
+	padding: 80px 50px 0px 50px;
+}
+.networking-head{
+	text-align: center; padding-left: 150px; 
+	padding-right: 150px;
+}
+.networking-head h1{
+	color: black; font-size: 40px;
+}
+.networking-cards{
+	margin-top: 70px; display: flex; column-gap: 20px;
+}
+.networking-card{
+	width: 33.3%;
+}
+.networking-card-bg{
+	height: 300px; border-radius: 12px;
+}
+.networking-card-texts{
+	margin-top: 40px;
+}
+.networking-card-texts h1{
+	color: #420542; font-size: 28px;
+}
+.networking-card-texts p{
+	margin-top: 10px; font-size: 15px;
+}
+.networking-press{
+	margin-top: 70px; padding-left: 70px; padding-right: 70px;
+}
+.net-press-head{
+	width: 50%; margin: auto; text-align: center; margin-bottom: 30px;
+}
+.net-press-head h1{
+	font-size: 36px; font-weight: 400; color: black;
+}
+.snp-video{
+	display: flex; justify-content: center; margin-top: 50px;
+}
+.snp-video video{
+	width: 100%;
+}
+.snp-video-content{
+	margin-top: 30px;
+}
+.networking-press h3{
+	margin-top: 80px; 
+	text-align: center; 
+	font-weight: 200; 
+	font-size: 20px;
+}
+.networking-social-section{
+	margin-top: 70px; background-color: rgb(192 132 252); 
+	padding: 100px 100px 100px 100px; 
+	display: flex; column-gap: 30px;
+}
+.socials-blog-links{
+	width: 45%; 
+	padding: 50px 20px 50px 20px; 
+}
+.sbl-item h1{
+	color: white; font-size: 23px; font-weight:300; text-align: center;
+}
+.sbl-btn{
+	margin-top: 15px; display: flex; justify-content: center;
+}
+.sbl-btn button{
+	border: none; background: white; padding: 15px 20px 15px 20px; 
+	border-radius: 25px; font-size: 18px; font-weight: 100; color: black;
+}
+.social-blog-cover{
+	width: 55%; background-image: url(./img/bobamayegun-pics/press-banner-ii.jpg); background-size: cover;
+}
+.networking-gallery{
+	margin-top: 0; background-color: rgb(192 132 252); 
+	padding: 0px 30px 150px 30px; display: flex; column-gap: 25px;
+}
+.ngl-main{
+	width: 33.3%;
+}
+.ngl-item{
+	margin-top: 30px; background-size: cover; height: 300px;"
+}
+
+
+
+
+
+
 
 
 
@@ -4894,6 +4984,51 @@ padding: 0;
 		display: block;
 	}
 	.policy-grid-left, .policy-grid-right{
+		width: 100%;
+	}
+	.networking-content{
+		padding: 30px 15px;
+	}
+	.networking-head{
+		padding: 10px 20px; 
+	}
+	.networking-head h1{
+		font-size: 28px;
+	}
+	.networking-cards{
+		display: block;
+		padding: 10px 15px;
+	}
+	.networking-card{
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.networking-press{
+		padding: 10px 20px;
+	}
+	.net-press-head{
+		width: 100%;
+	}
+	.net-press-head h1{
+		font-size: 24px;
+	}
+	.networking-press h3{
+		font-size: 15px;
+	}
+	.networking-social-section{
+		display: block;
+		padding: 40px 20px;
+	}
+	.socials-blog-links{
+		width: 100%;
+    	padding: 10px 10px;
+	}
+	.networking-gallery{
+		display: block;
+		padding: 50px 20px 150px 20px;
+	}
+	.ngl-main{
 		width: 100%;
 	}
 }
