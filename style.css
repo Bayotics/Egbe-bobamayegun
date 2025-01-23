@@ -4087,12 +4087,34 @@ body{
 	display:inline-block;
 	margin-left:4px;
 }
-
-
-
-
-
-
+.memebrship-benefits{
+	margin-top: 100px;
+}
+.mem-benefit-header h1{
+	font-weight: 300; color: black; 
+}
+.mem-benefit-header p{
+	margin-top: 20px; font-size: 18px;
+}
+.mem-benefit-cards{
+	margin-top: 50px; display: flex; 
+	column-gap: 30px; padding-left: 50px; 
+	padding-right: 50px;
+}
+.mem-benefit-card{
+	width: 33.33%;
+}
+.mbc-ico{
+	padding: 100px 120px 100px 120px; 
+	background-color: white; border:2px solid #2e022e;
+}
+.mem-benefit-card h4{
+	margin-top: 30px; font-size: 20px; 
+	font-weight: 400; color: rgb(43, 18, 63);
+}
+.mem-benefit-card p{
+	margin-top: 15px;
+}
 
 
 
@@ -4708,7 +4730,138 @@ padding: 0;
 	width: 33.3%;
 }
 .ngl-item{
-	margin-top: 30px; background-size: cover; height: 300px;"
+	margin-top: 30px; background-size: cover; height: 300px;
+}
+.news-content{
+	padding: 120px 70px 120px 70px;
+}
+.news-content-header{
+	text-align: center; padding: 0 100px 0 100px;
+}
+.news-content-header h1{
+	color: black; font-size: 42px;
+}
+.news-content-header p{
+	margin-top: 30px; font-size: 18px; font-weight: 200; 
+	color: rgb(118, 120, 121);
+}
+.news-grid-main{
+	margin-top: 60px;
+}
+.ngm-top-row{
+	display: flex; column-gap: 30px;
+}
+.news-card{
+	width: 33%;
+}
+.news-card-bg{
+	height: 250px; border-radius: 20px;
+	place-content: end; background-size: cover;
+}
+.news-date-tag{
+	padding-top: 10px; padding-bottom: 10px;
+	width: 20%; background-color: #7b3db6; float: right; 
+	border-bottom-right-radius: 20px; text-align: center;
+}
+.news-date-tag p{
+	color: white; font-size: 18px;
+}
+.news-text-content{
+	margin-top: 30px;
+}
+.news-text-content h1{
+	font-size: 22px; color: black;
+}
+.news-text-content p{
+	margin-top: 20px;
+}
+.news-btn-read-more{
+	margin-top: 30px;
+}
+.nbrm-btn a{
+	color: white; font-size: 18px;
+}
+.gallery-content{
+	text-align: center; padding: 120px 70px 120px 70px;
+}
+.gallery-row{
+	display: flex; column-gap: 15px;
+}
+.gallery-row a{
+	width: 25%; overflow: hidden; margin-top: 15px;
+}
+.gallery-bg{
+	width:100%; height: 280px; border-radius: 10px; 
+	background-size: cover;
+}
+.membership-content{
+	padding: 120px 60px 120px 60px;
+}
+.membership-intro{
+	display: flex; padding-left: 40px; 
+	padding-right: 40px; column-gap: 40px;
+}
+.membership-intro-texts{
+	width: 50%; padding-top: 20px; padding-bottom: 20px
+}
+.membership-intro-texts h1{
+	font-size: 26px; color: #291129;
+}
+.membership-intro-texts p{
+	margin-top: 30px; font-size: 16px;
+}
+.membership-intro-bg{
+	width: 50%; background-size: cover;
+}
+.membership-form{
+	margin-top: 150px; 
+	padding: 10px 40px 200px 40px;
+}
+.membership-form-content{
+	display: flex; column-gap: 50px;
+}
+.mem-form-texts{
+	width: 33.3333%;
+}
+.mem-form-texts h1{
+	font-size: 64px; line-height: 70px; color: black;
+}
+.mem-form-svg{
+	margin-top: 30px; display: flex; justify-content: center;
+}
+.mem-form-texts p{
+	margin-top: 30px; font-size: 18px; color: black;
+}
+.membership-form-input{
+	width: 66.6666666%;
+}
+.membership-form-input form{
+	background: black; width: 100%; 
+	padding: 3rem 2.5rem 3rem 2.5rem; 
+	border-radius: 30px;
+}
+.name-input{
+	display: flex; column-gap: 2rem;
+}
+.ni-half{
+	width: 50%;
+	margin-top: 40px;
+}
+.ni-half p{
+	color: white; font-size: 1.25rem;
+}
+.ni-half input{
+	width: 100%; background: #1e293b; padding-top: 1rem; 
+	padding-bottom: 1rem; border-radius: 0.75rem; padding-left: 12px; 
+	margin-top: 8px; color: white; border: none;
+}
+.input-single-line{
+	width: 100%; margin-top: 40px;	
+}
+.input-single-line input{
+	width: 100%; background: #1e293b; padding-top: 1rem; 
+	padding-bottom: 1rem; border-radius: 0.75rem; padding-left: 12px; 
+	margin-top: 8px; color: white; border: none;
 }
 
 
@@ -4722,12 +4875,8 @@ padding: 0;
 
 
 
-
-
-
-
 /* *************** Mobile ****************** */
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 450px) {
 	body{
 		width: auto;
 		padding: 0;
@@ -5030,6 +5179,96 @@ padding: 0;
 	}
 	.ngl-main{
 		width: 100%;
+	}
+	.news-content{
+		padding: 40px 20px;
+	}
+	.news-content-header{
+		padding: 10px;
+	}
+	.news-content-header h1{
+		font-size: 28px;
+	}
+	.ngm-top-row{
+		display: block;
+	}
+	.news-card{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.gallery-content{
+		padding: 80px 40px;
+	}
+	.gallery-content h1{
+		font-size: 28px;
+	}
+	.gallery-row{
+		display: block;
+	}
+	.gallery-bg{
+		margin-bottom: 30px;
+	}
+	.membership-content{
+		padding: 120px 10px;
+	}
+	.membership-intro{
+		display: block;
+	}
+	.membership-intro-texts {
+		width: 100%;
+		text-align: center;
+	}
+	.membership-intro-bg {
+		width: 100%;
+		height: 300px;
+	}
+	.join-now-btn button{
+		background-color: black;
+		color: white;
+	}
+	.mem-benefit-header{
+		padding: 10px 20px;
+	}
+	.mem-benefit-header h1{
+		font-size: 28px;
+	}
+	.mem-benefit-cards{
+		display: block;
+	}
+	.mem-benefit-card{
+		width: 100%;
+		text-align: center;
+	}
+	.mbc-ico{
+		display: flex;
+		justify-content: center;
+	}
+	.membership-form{
+		padding: 10px 20px;
+	}
+	.membership-form-content{
+		display: block;
+	}
+	.mem-form-texts{
+		width: 100%;
+		text-align: center;
+	}
+	.mem-form-texts h1{
+		font-size: 30px;
+		line-height: 1.2;
+	}
+	.membership-form-input{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.name-input{
+		display: block;
+	}
+	.ni-half{
+		width: 100%;
+	}
+	.membership-select{
+		margin-bottom: 40px;
 	}
 }
 
