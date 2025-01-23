@@ -4602,12 +4602,30 @@ padding: 0;
 .cdo-for-mobile{
 	display: none;
 }
-
-
-
-
-
-
+.policy-content-heading{
+	color: black; font-size: 32px; text-align: center;
+}
+.policy-grid{
+	display: flex; column-gap: 20px; margin-top: 100px;
+}
+.policy-grid-left{
+	width: 50%;
+}
+.policy-card{
+	display: flex; column-gap: 20px;
+}
+.policy-card-text h1{
+	color: black; font-weight: 300; font-size: 30px;
+}
+.policy-card-text p{
+	color: black; font-weight: 100; margin-top: 20px; font-size: 14px;
+}
+.policy-grid-right{
+	width: 50%;
+}
+.policy-content{
+	padding: 100px 70px 100px 70px;
+}
 
 
 
@@ -4864,6 +4882,19 @@ padding: 0;
 	}
 	.charity-page-banner h1{
 		font-size: 48px;
+	}
+	.policy-content{
+		padding: 40px 25px;
+	}
+	.policy-content-heading{
+		font-size: 26px;
+		margin-top: 40px;
+	}
+	.policy-grid{
+		display: block;
+	}
+	.policy-grid-left, .policy-grid-right{
+		width: 100%;
 	}
 }
 
