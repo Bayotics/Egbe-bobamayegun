@@ -4523,9 +4523,85 @@ padding: 0;
 	width:40%;
 	background-size: 100% 100%;
 }
-
-
-
+.arts-content{
+	text-align: center; padding: 120px 100px 120px 100px;
+}
+.charity-banner-lower{
+	display: flex;
+}
+.cbl-left{
+	padding: 70px 100px 70px 80px; width: 50%;
+}
+.cbl-left h1{
+	font-weight: 200; font-size: 34px; color: #ffffff;
+}
+.cbl-btn{
+	width: 30%; margin-top: 30px;
+}
+.cbl-btn a{
+	color: #dcbff0; font-size: 20px;
+}
+.cbl-right{
+	padding: 70px 100px 70px 80px; width: 50%;
+}
+.cbl-right h1{
+	font-weight: 200; font-size: 34px; color: #ffffff;
+}
+.charity-what-we-do{
+	margin-top: 100px; display: flex; 
+	column-gap: 50px; padding: 0 50px 0 50px;
+}
+.cwwd-left{
+	width: 50%; padding: 100px 100px 100px 0;
+}
+.cwwd-left p{
+	font-weight: 100; 
+	margin-top: 50px;
+}
+.cwwd-left h1{
+	font-weight: 300; 
+	color: black; font-size: 44px;
+}
+.cwwd-text h1{
+	color: black; font-weight: 300; font-size: 30px;
+}
+.cwwd-text p{
+	color: black; font-weight: 100; margin-top: 20px; font-size: 14px
+}
+.cwwd-right{
+	width: 50%;
+}
+.cwwdr-top{
+	display: flex;
+	column-gap: 30px;
+}
+.cwwd-card{
+	display: flex; column-gap: 20px; width: 50%;
+}
+.charity-display-one{
+	display: flex; column-gap: 70px; padding: 0 50px 0 50px;
+}
+.cdo-text{
+	width: 50%; 
+	padding: 100px 100px 100px 0;
+}
+.cdo-text p{
+	font-weight: 100; margin-top: 50px; color: black;
+}
+.cdo-text h1{
+	font-weight: 400; color: black; font-size: 34px;
+}
+.cdo-text-bottom-paragraph{
+	font-size: 16px; margin-top: 10px;
+}
+.cdo-pic{
+	width: 50%; 
+	background-size: 100% 100%; height: 400px; border-radius: 20px; border: 8px solid white;
+	
+}
+.cdo-for-mobile{
+	display: none;
+}
 
 
 
@@ -4726,6 +4802,68 @@ padding: 0;
 	.history-btn{
 		width: 75%;
 		margin: auto;
+	}
+	.arts-content{
+		padding: 100px 0
+	}
+	.charity-banner-lower{
+		display: block;
+	}
+	.cbl-left{
+		width: 100%;
+		padding: 30px 20px;
+		text-align: center;
+	}
+	.cbl-right{
+		width: 100%;
+		padding: 30px 20px;
+		text-align: center;
+	}
+	.cbl-btn{
+		width: 70%;
+		margin: auto;
+		margin-top: 40px;
+	}
+	.charity-what-we-do{
+		display: block;
+		padding: 0 30px;
+	}
+	.cwwd-left {
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+	.cwwd-right{
+		width: 100%;
+    	margin-top: 80px;
+	}
+	.cwwdr-top{
+		display: block;
+	}
+	.cwwd-card{
+		width: 100%;
+    	margin-bottom: 30px;
+	}
+	.charity-display-one{
+		display: block;
+    	padding: 0 10px;
+	}
+	.cdo-pic{
+		width: 100%;
+	}
+	.cdo-text{
+		width: 100%;
+		padding: 0 15px;
+		text-align: center;
+	}
+	.cdo-for-mobile{
+		display: block;
+	}
+	.cdo-for-mobile-hidden{
+		display: none;
+	}
+	.charity-page-banner h1{
+		font-size: 48px;
 	}
 }
 
