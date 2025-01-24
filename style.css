@@ -4924,7 +4924,8 @@ padding: 0;
 		display: none;
 	}
 	.home-slider-btn{
-		margin: auto; 
+		display: flex;
+		justify-content: center;
 		width: 50%;
 	}
 	.home-slider-btn a{
@@ -4988,11 +4989,11 @@ padding: 0;
 		margin-top: 40px;
 	}
 	.wup-r-up{
-		height: 250px;
+		height: 300px;
 	}
 	.wup-r-down{
 		margin-top: 40px;
-		height: 250px;
+		height: 300px;
 	}
 	.portfolio .single-pf img{
 		height: 400px;
@@ -5026,6 +5027,7 @@ padding: 0;
 	}
 	.cth-btn{
 		width: 90%;
+		margin: auto;
 		margin-top: 80px;
 	}
 	.gallery-header-home{
@@ -5310,6 +5312,9 @@ padding: 0;
 	}
 	.homepage-bullet{
 		text-align: left;
+	}
+	.homepage-bullet-lower{
+		margin-top: 10px;
 	}
 	.excos-content{
 		padding: 100px 20px;
@@ -5340,7 +5345,7 @@ padding: 0;
 
 
 
-@media only screen and (max-width: 587px) {
+@media screen and (min-width: 481px)  and (max-width: 587px) {
 	body{
 		width: auto;
 		padding: 0;
@@ -5353,8 +5358,8 @@ padding: 0;
 		display: none;
 	}
 	.home-slider-btn{
-		margin: auto; 
-		width: 50%;
+		display: flex;
+		justify-content: center;
 	}
 	.home-slider-btn a{
 		font-size: 14px;
@@ -5410,18 +5415,18 @@ padding: 0;
 	}
 	.wup-left{
 		width: 100%;
-		height: 500px;
+		height: 700px;
 	}
 	.wup-right{
 		width: 100%;
 		margin-top: 40px;
 	}
 	.wup-r-up{
-		height: 250px;
+		height: 450px;
 	}
 	.wup-r-down{
 		margin-top: 40px;
-		height: 250px;
+		height: 450px;
 	}
 	.portfolio .single-pf img{
 		height: 400px;
@@ -5455,6 +5460,7 @@ padding: 0;
 	}
 	.cth-btn{
 		width: 90%;
+		margin: auto;
 		margin-top: 80px;
 	}
 	.gallery-header-home{
@@ -5471,7 +5477,7 @@ padding: 0;
 		width: 100%;
 	}
 	.gallery-contents-home{
-		padding: 10px;
+		padding: 10px 20px;
 		margin-top: 150px;
 	}
 	.gch-top{
@@ -5480,6 +5486,7 @@ padding: 0;
 	.gallery-img-card{
 		width: 100%;
 		margin-bottom: 30px;
+		height: 400px;
 	}
 	.newsletter-section-main{
 		margin-top: 40px;
@@ -5526,6 +5533,9 @@ padding: 0;
 	.history-btn{
 		width: 75%;
 		margin: auto;
+	}
+	.ngl-item{
+		height: 400px;
 	}
 	.arts-content{
 		padding: 100px 0
@@ -5740,6 +5750,9 @@ padding: 0;
 	.homepage-bullet{
 		text-align: left;
 	}
+	.homepage-bullet-lower{
+		margin-top: 10px;
+	}
 	.excos-content{
 		padding: 100px 20px;
 	}
@@ -5761,6 +5774,10 @@ padding: 0;
 	}
 	.exco-card-for-pc{
 		display: none;
+	}
+	.news-card-bg{
+		height: 350px;
+		place-content: end;
 	}
 }
 
