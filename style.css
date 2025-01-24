@@ -4887,6 +4887,14 @@ padding: 0;
 .exco-card-for-mobile{
 	display: none;
 }
+.app-logo-main{
+	height: 60px;
+	width: 60px;
+}
+.header-logo-text{
+	font-size: 24px;
+	margin-top: 5px;
+}
 
 
 
@@ -4911,8 +4919,47 @@ padding: 0;
 
 
 /* *************** Mobile ****************** */
+
 @media only screen and (max-width: 310px) {
-	
+	.app-logo-main{
+		height: 30px;
+		width: 30px;
+		margin-top: 10px;
+	}
+	.header-logo-text{
+		font-size: 14px;
+	}
+	.header-logo-subtext{
+		font-size: 13px;
+	}
+	.slider .single-slider{
+		min-height: 600px;
+	}
+	.call-action{
+		padding: 10px
+	}
+	.community-texts-home h1{
+		font-size: 32px;
+	}
+	.page-banner-content {
+		word-wrap: break-word;
+	}
+	.cbl-left h1{
+		font-size: 24px;
+	}
+	.cbl-right h1{
+		font-size: 24px;
+	}
+	.cwwd-text h1{
+		font-size: 22px;
+		font-weight: 400;
+	}
+	.policy-card-text h1{
+		font-size: 22px;
+	}
+	.mem-benefit-cards{
+		padding: 0;
+	}
 }
 
 
@@ -5279,6 +5326,7 @@ padding: 0;
 	}
 	.mem-benefit-cards{
 		display: block;
+		padding: 5px;
 	}
 	.mem-benefit-card{
 		width: 100%;
@@ -5793,6 +5841,17 @@ padding: 0;
 		padding: 0;
 		margin: 0;
 	}
+	.app-logo-main{
+		height: 30px;
+		width: 30px;
+		margin-top: 10px;
+	}
+	.header-logo-text{
+		font-size: 14px;
+	}
+	.header-logo-subtext{
+		font-size: 9px;
+	}
 	.slider .single-slider:before{
 		opacity: 0.2
 	}
@@ -6126,6 +6185,7 @@ padding: 0;
 	}
 	.gallery-bg{
 		margin-bottom: 30px;
+		height: 450px;
 	}
 	.membership-content{
 		padding: 120px 10px;
@@ -6139,7 +6199,7 @@ padding: 0;
 	}
 	.membership-intro-bg {
 		width: 100%;
-		height: 300px;
+		height: 500px;
 	}
 	.join-now-btn button{
 		background-color: black;
