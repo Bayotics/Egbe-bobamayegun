@@ -4863,6 +4863,41 @@ padding: 0;
 	padding-bottom: 1rem; border-radius: 0.75rem; padding-left: 12px; 
 	margin-top: 8px; color: white; border: none;
 }
+.excos-content{
+	padding: 120px 50px 120px 50px;
+}
+.exco-cards-main{
+	padding: 10px 100px 10px 100px;
+}
+.exco-card{
+	display: flex; column-gap: 30px; margin-top: 150px;
+}
+.exco-person-info{
+	width: 50%; padding-top: 70px; padding-bottom: 70px;
+}
+.exco-person-info h1{
+	font-size: 24px; color: black;
+}
+.exco-person-info p{
+	color: #463346; margin-top: 30px; font-size: 18px; line-height: 1.5;
+}
+.exco-person-bg{
+	width: 50%;
+}
+.exco-card-for-mobile{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4876,7 +4911,7 @@ padding: 0;
 
 
 /* *************** Mobile ****************** */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
 	body{
 		width: auto;
 		padding: 0;
@@ -4884,6 +4919,9 @@ padding: 0;
 	}
 	.slider .single-slider:before{
 		opacity: 0.2
+	}
+	.clients{
+		display: none;
 	}
 	.home-slider-btn{
 		margin: auto; 
@@ -4902,7 +4940,7 @@ padding: 0;
 		text-align: center;
 	}
 	.why-choose .choose-left h3:before{
-		left: 130px;
+		justify-self: anchor-center;
 	}
 	.why-us-header{
 		display: block;
@@ -4943,7 +4981,7 @@ padding: 0;
 	}
 	.wup-left{
 		width: 100%;
-		height: 400px;
+		height: 500px;
 	}
 	.wup-right{
 		width: 100%;
@@ -5272,6 +5310,457 @@ padding: 0;
 	}
 	.homepage-bullet{
 		text-align: left;
+	}
+	.excos-content{
+		padding: 100px 20px;
+	}
+	.exco-cards-main{
+		padding: 10px;
+	}
+	.exco-card{
+		display: block;
+	}
+	.exco-person-info{
+		width: 100%;
+	}
+	.exco-person-bg{
+		width: 100%;
+		height: 400px;
+	}
+	.exco-card-for-mobile{
+		display: block;
+	}
+	.exco-card-for-pc{
+		display: none;
+	}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 587px) {
+	body{
+		width: auto;
+		padding: 0;
+		margin: 0;
+	}
+	.slider .single-slider:before{
+		opacity: 0.2
+	}
+	.clients{
+		display: none;
+	}
+	.home-slider-btn{
+		margin: auto; 
+		width: 50%;
+	}
+	.home-slider-btn a{
+		font-size: 14px;
+	}
+	.pillar-heading{
+		padding: 0;
+	}
+	.single-fun .d-flex{
+		justify-content: center;
+	}
+	.choose-left{
+		text-align: center;
+	}
+	.why-choose .choose-left h3:before{
+		justify-self: anchor-center;
+	}
+	.why-us-header{
+		display: block;
+	}
+	.why-us-header h1{
+		font-size: 24px;
+		text-align: center;
+	}
+	.why-us-header p{
+		font-size: 16px;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.cont-paragraph{
+		text-align: center;
+	}
+	.why-us-container{
+		display: block;
+	}
+	.why-us-cards{
+		width: 100%;
+	}
+	.why-us-card{
+		width: 100%;
+        margin-left: 0;
+        text-align: center
+	}
+	.wuc-content{
+		display: block;
+	}
+	.wuc-icon{
+		background-color: transparent;
+	}
+	.why-us-pics{
+		margin-top: 40px;
+		display: block;
+		width: 100%;
+	}
+	.wup-left{
+		width: 100%;
+		height: 500px;
+	}
+	.wup-right{
+		width: 100%;
+		margin-top: 40px;
+	}
+	.wup-r-up{
+		height: 250px;
+	}
+	.wup-r-down{
+		margin-top: 40px;
+		height: 250px;
+	}
+	.portfolio .single-pf img{
+		height: 400px;
+	}
+	.joinus-head{
+		padding: 0 15px 0 15px;
+	}
+	.joinus-head h1{
+		font-size: 28px; color: black; text-align: center;
+	}
+	.joinus-grid-main{
+		display: block;
+		padding: 0 20px 0 20px;
+	}
+	.joinus-profile-cards{
+		width: 100%;
+	}
+	.joinus-profile-cards-top{
+		display: block;
+	}
+	.jpc-one{
+		width: 100%;
+	}
+	.joinus-community{
+		width: 100%;
+		padding: 20px;
+		text-align: center;
+	}
+	.community-img{
+		width: 100%;
+	}
+	.cth-btn{
+		width: 90%;
+		margin-top: 80px;
+	}
+	.gallery-header-home{
+		display: block; padding-left: 10px; padding-right: 10px;
+	}
+	.ghh-headers{
+		width: 100%;
+		text-align: center;
+	}
+	.ghh-btn{
+		width: 100%;
+	}
+	.gallery-see-more-btn{
+		width: 100%;
+	}
+	.gallery-contents-home{
+		padding: 10px;
+		margin-top: 150px;
+	}
+	.gch-top{
+		display: block;
+	}
+	.gallery-img-card{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.newsletter-section-main{
+		margin-top: 40px;
+	}
+	.copyright-content{
+		display: block;
+	}
+	.page-banner{
+		padding: 100px 30px 100px 30px;
+    	text-align: center;
+	}
+	.mission-section{
+		padding-left: 15px;
+    	padding-right: 15px;
+	}
+	.mission-content{
+		display: block;
+	}
+	.mission-left{
+		display: block;
+		width: 100%;
+	}
+	.mission-right{
+		width: 100%;
+		padding: 50px 20px;
+		margin-top: 40px;
+		text-align: center;
+	}
+	.mission-section p{
+		margin-top: 20px;
+	}
+	.about-history{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.ah-content{
+		display: block;
+	}
+	.ahc-texts{
+		width: 100%;
+		padding: 30px 15px;
+		text-align: center;
+	}
+	.history-btn{
+		width: 75%;
+		margin: auto;
+	}
+	.arts-content{
+		padding: 100px 0
+	}
+	.charity-banner-lower{
+		display: block;
+	}
+	.cbl-left{
+		width: 100%;
+		padding: 30px 20px;
+		text-align: center;
+	}
+	.cbl-right{
+		width: 100%;
+		padding: 30px 20px;
+		text-align: center;
+	}
+	.cbl-btn{
+		width: 70%;
+		margin: auto;
+		margin-top: 40px;
+	}
+	.charity-what-we-do{
+		display: block;
+		padding: 0 30px;
+	}
+	.cwwd-left {
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+	.cwwd-right{
+		width: 100%;
+    	margin-top: 80px;
+	}
+	.cwwdr-top{
+		display: block;
+	}
+	.cwwd-card{
+		width: 100%;
+    	margin-bottom: 30px;
+	}
+	.charity-display-one{
+		display: block;
+    	padding: 0 10px;
+	}
+	.cdo-pic{
+		width: 100%;
+	}
+	.cdo-text{
+		width: 100%;
+		padding: 0 15px;
+		text-align: center;
+	}
+	.cdo-for-mobile{
+		display: block;
+	}
+	.cdo-for-mobile-hidden{
+		display: none;
+	}
+	.charity-page-banner h1{
+		font-size: 48px;
+	}
+	.policy-content{
+		padding: 40px 25px;
+	}
+	.policy-content-heading{
+		font-size: 26px;
+		margin-top: 40px;
+	}
+	.policy-grid{
+		display: block;
+	}
+	.policy-grid-left, .policy-grid-right{
+		width: 100%;
+	}
+	.networking-content{
+		padding: 30px 15px;
+	}
+	.networking-head{
+		padding: 10px 20px; 
+	}
+	.networking-head h1{
+		font-size: 28px;
+	}
+	.networking-cards{
+		display: block;
+		padding: 10px 15px;
+	}
+	.networking-card{
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.networking-press{
+		padding: 10px 20px;
+	}
+	.net-press-head{
+		width: 100%;
+	}
+	.net-press-head h1{
+		font-size: 24px;
+	}
+	.networking-press h3{
+		font-size: 15px;
+	}
+	.networking-social-section{
+		display: block;
+		padding: 40px 20px;
+	}
+	.socials-blog-links{
+		width: 100%;
+    	padding: 10px 10px;
+	}
+	.networking-gallery{
+		display: block;
+		padding: 50px 20px 150px 20px;
+	}
+	.ngl-main{
+		width: 100%;
+	}
+	.news-content{
+		padding: 40px 20px;
+	}
+	.news-content-header{
+		padding: 10px;
+	}
+	.news-content-header h1{
+		font-size: 28px;
+	}
+	.ngm-top-row{
+		display: block;
+	}
+	.news-card{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.gallery-content{
+		padding: 80px 40px;
+	}
+	.gallery-content h1{
+		font-size: 28px;
+	}
+	.gallery-row{
+		display: block;
+	}
+	.gallery-bg{
+		margin-bottom: 30px;
+	}
+	.membership-content{
+		padding: 120px 10px;
+	}
+	.membership-intro{
+		display: block;
+	}
+	.membership-intro-texts {
+		width: 100%;
+		text-align: center;
+	}
+	.membership-intro-bg {
+		width: 100%;
+		height: 300px;
+	}
+	.join-now-btn button{
+		background-color: black;
+		color: white;
+	}
+	.mem-benefit-header{
+		padding: 10px 20px;
+	}
+	.mem-benefit-header h1{
+		font-size: 28px;
+	}
+	.mem-benefit-cards{
+		display: block;
+	}
+	.mem-benefit-card{
+		width: 100%;
+		text-align: center;
+	}
+	.mbc-ico{
+		display: flex;
+		justify-content: center;
+	}
+	.membership-form{
+		padding: 10px 20px;
+	}
+	.membership-form-content{
+		display: block;
+	}
+	.mem-form-texts{
+		width: 100%;
+		text-align: center;
+	}
+	.mem-form-texts h1{
+		font-size: 30px;
+		line-height: 1.2;
+	}
+	.membership-form-input{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.name-input{
+		display: block;
+	}
+	.ni-half{
+		width: 100%;
+	}
+	.membership-select{
+		margin-bottom: 40px;
+	}
+	.homepage-bullet{
+		text-align: left;
+	}
+	.excos-content{
+		padding: 100px 20px;
+	}
+	.exco-cards-main{
+		padding: 10px;
+	}
+	.exco-card{
+		display: block;
+	}
+	.exco-person-info{
+		width: 100%;
+	}
+	.exco-person-bg{
+		width: 100%;
+		height: 400px;
+	}
+	.exco-card-for-mobile{
+		display: block;
+	}
+	.exco-card-for-pc{
+		display: none;
 	}
 }
 
