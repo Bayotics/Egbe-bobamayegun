@@ -118,7 +118,8 @@
 	padding-top: 15px;
 }
 .slider .single-slider {
-	height: 450px;
+	height: 650px;
+	padding-top: 200px;
 }
 .schedule {
 	background: #fff;
@@ -1055,7 +1056,8 @@
 	text-align: center;
 }
 .slider .single-slider {
-	height: 450px;
+	height: 550px;
+	padding-top: 100px;
 }
 .schedule {
 	background: #fff;

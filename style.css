@@ -19,8 +19,11 @@ body{
 	background: #3c163d;
   }
   .home-slider-heading{
-	font-size: 60px; line-height: 1.5; color: rgb(220, 205, 238); text-align: center;
+	font-size: 60px; line-height: 1.5; color: rgb(235, 225, 238); text-align: center;
   } 
+  .home-slider-paragraph{
+	font-size: 20px; color: rgb(243, 230, 241); text-align: center
+  }
 .pro-features {
 	position: fixed;
 	right: -300px;
@@ -578,11 +581,6 @@ body{
 }
 .slider .single-slider h1 span{
 	color:#971797;
-}
-.slider .single-slider p {
-	color: #2C2D3F;
-	margin-top: 27px;
-	font-weight: 400;
 }
 .slider .single-slider .button{
 	margin-top:30px;
@@ -4115,7 +4113,9 @@ body{
 .mem-benefit-card p{
 	margin-top: 15px;
 }
-
+.features-container{
+	display: none;
+}
 
 
 
@@ -5051,7 +5051,7 @@ padding: 0;
 		height: 400px;
 	}
 	.joinus-head{
-		padding: 0 15px 0 15px;
+		padding: 0 50px;
 	}
 	.joinus-head h1{
 		font-size: 28px; color: black; text-align: center;
@@ -5485,7 +5485,7 @@ padding: 0;
 		height: 400px;
 	}
 	.joinus-head{
-		padding: 0 15px 0 15px;
+		padding: 0 50px;
 	}
 	.joinus-head h1{
 		font-size: 28px; color: black; text-align: center;
@@ -5496,6 +5496,7 @@ padding: 0;
 	}
 	.joinus-profile-cards{
 		width: 100%;
+		padding: 20px 50px;
 	}
 	.joinus-profile-cards-top{
 		display: block;
@@ -5552,8 +5553,8 @@ padding: 0;
     	text-align: center;
 	}
 	.mission-section{
-		padding-left: 15px;
-    	padding-right: 15px;
+		padding-left: 25px;
+    	padding-right: 25px;
 	}
 	.mission-content{
 		display: block;
@@ -5933,7 +5934,7 @@ padding: 0;
 		height: 400px;
 	}
 	.joinus-head{
-		padding: 0 15px 0 15px;
+		padding: 0 50px;
 	}
 	.joinus-head h1{
 		font-size: 28px; color: black; text-align: center;
@@ -5944,6 +5945,7 @@ padding: 0;
 	}
 	.joinus-profile-cards{
 		width: 100%;
+		padding: 20px 100px;
 	}
 	.joinus-profile-cards-top{
 		display: block;
@@ -6000,8 +6002,8 @@ padding: 0;
     	text-align: center;
 	}
 	.mission-section{
-		padding-left: 15px;
-    	padding-right: 15px;
+		padding-left: 75px;
+    	padding-right: 75px;
 	}
 	.mission-content{
 		display: block;
@@ -6249,8 +6251,467 @@ padding: 0;
 	.membership-select{
 		margin-bottom: 40px;
 	}
+	.homepage-bullet-lower{
+		margin-top: 10px;
+	}
+	.excos-content{
+		padding: 100px 20px;
+	}
+	.exco-cards-main{
+		padding: 10px;
+	}
+	.exco-card{
+		display: block;
+	}
+	.exco-person-info{
+		width: 100%;
+	}
+	.exco-person-bg{
+		width: 100%;
+		height: 400px;
+	}
+	.exco-card-for-mobile{
+		display: block;
+	}
+	.exco-card-for-pc{
+		display: none;
+	}
+	.news-card-bg{
+		height: 350px;
+		place-content: end;
+	}
+}
+@media screen and (min-width: 771px)  and (max-width: 995px) {
+	body{
+		width: auto;
+		padding: 0;
+		margin: 0;
+	}
+	.app-logo-main{
+		height: 30px;
+		width: 30px;
+		margin-top: 10px;
+	}
+	.header-logo-text{
+		font-size: 14px;
+	}
+	.header-logo-subtext{
+		font-size: 9px;
+	}
+	.slider .single-slider:before{
+		opacity: 0.2
+	}
+	.clients{
+		display: none;
+	}
+	.home-slider-btn{
+		display: flex;
+		justify-content: center;
+	}
+	.home-slider-btn a{
+		font-size: 14px;
+	}
+	.pillar-heading{
+		padding: 0;
+	}
+	.single-fun .d-flex{
+		justify-content: center;
+	}
+	.choose-left{
+		text-align: center;
+	}
+	.why-choose .choose-left h3:before{
+		justify-self: anchor-center;
+	}
+	.why-us-header{
+		display: block;
+	}
+	.why-us-header h1{
+		font-size: 24px;
+		text-align: center;
+	}
+	.why-us-header p{
+		font-size: 16px;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.cont-paragraph{
+		text-align: center;
+	}
+	.why-us-container{
+		display: block;
+		padding: 20px 50px;
+	}
+	.why-us-cards{
+		width: 100%;
+	}
+	.why-us-card{
+		width: 100%;
+        margin-left: 0;
+        text-align: center;
+		padding: 100px;
+	}
+	.wuc-content{
+		display: block;
+	}
+	.wuc-icon{
+		background-color: transparent;
+	}
+	.why-us-pics{
+		margin-top: 40px;
+		display: block;
+		width: 100%;
+	}
+	.wup-left{
+		width: 100%;
+		height: 700px;
+	}
+	.wup-right{
+		width: 100%;
+		margin-top: 40px;
+	}
+	.wup-r-up{
+		height: 450px;
+	}
+	.wup-r-down{
+		margin-top: 40px;
+		height: 450px;
+	}
+	.portfolio .single-pf img{
+		height: 400px;
+	}
+	.joinus-head{
+		padding: 0 50px;
+	}
+	.joinus-head h1{
+		font-size: 28px; color: black; text-align: center;
+	}
+	.joinus-grid-main{
+		display: flex;
+		padding: 0 20px 0 20px;
+	}
+	.joinus-profile-cards{
+		width: 100%;
+	}
+	.joinus-profile-cards-top{
+		display: block;
+	}
+	.jpc-one{
+		width: 100%;
+	}
+	.joinus-community{
+		width: 100%;
+		padding: 20px;
+		text-align: center;
+	}
+	.community-img{
+		width: 100%;
+		margin-top: 250px;
+	}
+	.cth-btn{
+		width: 90%;
+		margin: auto;
+		margin-top: 80px;
+	}
+	.gallery-header-home{
+		display: block; padding-left: 10px; padding-right: 10px;
+	}
+	.ghh-headers{
+		width: 100%;
+		text-align: center;
+	}
+	.ghh-btn{
+		width: 100%;
+	}
+	.gallery-see-more-btn{
+		width: 100%;
+	}
+	.gallery-contents-home{
+		padding: 10px 20px;
+		margin-top: 150px;
+	}
+	.gch-top{
+		display: block;
+	}
+	.gallery-img-card{
+		width: 100%;
+		margin-bottom: 30px;
+		height: 400px;
+	}
+	.newsletter-section-main{
+		margin-top: 40px;
+	}
+	.copyright-content{
+		display: block;
+	}
+	.page-banner{
+		padding: 100px 30px 100px 30px;
+    	text-align: center;
+	}
+	.mission-section{
+		padding-left: 75px;
+    	padding-right: 75px;
+	}
+	.mission-content{
+		display: block;
+	}
+	.mission-left{
+		display: block;
+		width: 100%;
+	}
+	.mission-right{
+		width: 100%;
+		padding: 100px 20px;
+		margin-top: 140px;
+		text-align: center;
+	}
+	.mission-section p{
+		margin-top: 20px;
+	}
+	.mission-paragraph{
+		font-size: 18px;
+	}
+	.about-history{
+		padding-left: 75px;
+		padding-right: 75px;
+	}
+	.ah-content{
+		display: block;
+	}
+	.ahc-texts{
+		width: 100%;
+		padding: 100px 25px;
+		text-align: center;
+	}
+	.history-btn{
+		width: 75%;
+		margin: auto;
+		margin-top: 50px;
+	}
+	.ngl-item{
+		height: 400px;
+	}
+	.arts-content{
+		padding: 100px 0
+	}
+	.charity-banner-lower{
+		display: flex;
+	}
+	.cbl-left{
+		width: 100%;
+		padding: 30px 20px;
+		text-align: center;
+	}
+	.cbl-right{
+		width: 100%;
+		padding: 30px 20px;
+		text-align: center;
+	}
+	.cbl-left h1{
+		font-size: 24px;
+	}
+	.cbl-right h1{
+		font-size: 24px;
+	}
+	.cbl-btn{
+		width: 70%;
+		margin: auto;
+		margin-top: 40px;
+	}
+	.charity-what-we-do{
+		display: flex;
+		padding: 0 30px;
+	}
+	.cwwd-left {
+		width: 100%;
+		padding-top: 300px;
+		text-align: center;
+	}
+	.cwwd-right{
+		width: 100%;
+    	margin-top: 80px;
+	}
+	.cwwdr-top{
+		display: block;
+	}
+	.cwwd-card{
+		width: 100%;
+    	margin-bottom: 30px;
+	}
+	.charity-display-one{
+		display: flex;
+    	padding: 0 10px;
+		column-gap: 0;
+	}
+	.cdo-pic{
+		width: 100%;
+	}
+	.cdo-text{
+		width: 100%;
+		padding: 0 15px;
+		text-align: center;
+	}
+	.cdo-for-mobile-hidden{
+		display: none;
+	}
+	.charity-page-banner h1{
+		font-size: 48px;
+	}
+	.policy-content{
+		padding: 40px 25px;
+	}
+	.policy-content-heading{
+		font-size: 26px;
+		margin-top: 40px;
+	}
+	.policy-grid{
+		display: flex;
+	}
+	.policy-grid-left, .policy-grid-right{
+		width: 100%;
+	}
+	.networking-content{
+		padding: 30px 15px;
+	}
+	.networking-head{
+		padding: 10px 20px; 
+	}
+	.networking-head h1{
+		font-size: 28px;
+	}
+	.networking-cards{
+		display: block;
+		padding: 10px 15px;
+	}
+	.networking-card{
+		width: 100%;
+		margin-bottom: 100px;
+		text-align: center;
+	}
+	.networking-card-bg{
+		height: 500px;
+		background-size: cover;
+	}
+	.networking-press{
+		padding: 10px 20px;
+	}
+	.net-press-head{
+		width: 100%;
+	}
+	.net-press-head h1{
+		font-size: 24px;
+	}
+	.networking-press h3{
+		font-size: 15px;
+	}
+	.networking-social-section{
+		display: block;
+		padding: 40px 20px;
+	}
+	.socials-blog-links{
+		width: 100%;
+    	padding: 10px 10px;
+	}
+	.networking-gallery{
+		display: block;
+		padding: 50px 20px 150px 20px;
+	}
+	.ngl-main{
+		width: 100%;
+	}
+	.news-content{
+		padding: 40px 20px;
+	}
+	.news-content-header{
+		padding: 10px;
+	}
+	.news-content-header h1{
+		font-size: 28px;
+	}
+	.ngm-top-row{
+		display: block;
+	}
+	.news-card{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.gallery-content{
+		padding: 80px 40px;
+	}
+	.gallery-content h1{
+		font-size: 28px;
+	}
+	.gallery-row{
+		display: block;
+	}
+	.gallery-bg{
+		margin-bottom: 30px;
+		height: 450px;
+	}
+	.membership-content{
+		padding: 120px 10px;
+	}
+	.membership-intro{
+		display: block;
+	}
+	.membership-intro-texts {
+		width: 100%;
+		text-align: center;
+	}
+	.membership-intro-bg {
+		width: 100%;
+		height: 500px;
+	}
+	.join-now-btn button{
+		background-color: black;
+		color: white;
+	}
+	.mem-benefit-header{
+		padding: 10px 20px;
+	}
+	.mem-benefit-header h1{
+		font-size: 28px;
+	}
+	.mem-benefit-cards{
+		display: block;
+	}
+	.mem-benefit-card{
+		width: 100%;
+		text-align: center;
+	}
+	.mbc-ico{
+		display: flex;
+		justify-content: center;
+	}
+	.membership-form{
+		padding: 10px 20px;
+	}
+	.membership-form-content{
+		display: block;
+	}
+	.mem-form-texts{
+		width: 100%;
+		text-align: center;
+	}
+	.mem-form-texts h1{
+		font-size: 30px;
+		line-height: 1.2;
+	}
+	.membership-form-input{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.name-input{
+		display: block;
+	}
+	.ni-half{
+		width: 100%;
+	}
+	.membership-select{
+		margin-bottom: 40px;
+	}
 	.homepage-bullet{
-		text-align: left;
+		text-align: center;
 	}
 	.homepage-bullet-lower{
 		margin-top: 10px;
@@ -6280,6 +6741,149 @@ padding: 0;
 	.news-card-bg{
 		height: 350px;
 		place-content: end;
+	}
+}
+@media screen and (min-width: 996px)  and (max-width: 1050px) {
+	.get-quote a{
+		display: none;
+	}
+	.nav{
+		display: ruby-text;
+	}
+	.mbc-ico{
+		padding: 100px;
+	}
+}
+@media only screen and (min-width: 2000px) {
+	.nav{
+		column-gap: 150px;
+	}
+	.header .nav li a {
+		font-size: 20px;
+	}
+	.get-quote{
+		float: right;
+	}
+	.slider .single-slider {
+		height: 1200px;
+		padding-top: 200px;
+	}
+	.slider .single-slider h1{
+		font-size: 96px;
+	}
+	.home-slider-paragraph{
+		font-size: 32px;
+		margin-top: 20px;
+		line-height: 1.3;
+	}
+	.home-slider-btn {
+		display: flex;
+		justify-content: center;
+	}
+	.home-slider-btn a{
+		font-size: 30px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.slider .single-slider .button {
+		margin-top: 80px;
+	}
+	.container-for-medium-screen-size{
+		display: none;
+	}
+	.features-container{
+		display: block;
+		padding: 100px 300px;
+	}
+	.why-us-header{
+		justify-content: space-between;
+	}
+	.why-us-card{
+		padding: 100px;
+	}
+	.portfolio .single-pf img {
+		height: 700px;
+	}
+	.community-texts-home h1{
+		text-align: center;
+	}
+	.cth-btn{
+		margin: auto;
+		margin-top: 40px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.cth-btn a{
+		font-size: 26px;
+	}
+	.community-texts-home p{
+		font-size: 25px;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.gallery-see-more-btn a{
+		font-size: 26px;
+	}
+	.gallery-img-card{
+		height: 450px;
+	}
+	.mission-right{
+		padding: 150px;
+	}
+	.mission-right h1{
+		font-size: 3rem;
+		margin-bottom: 70px;
+	}
+	.mission-paragraph{
+		font-size: 28px;
+    	line-height: 1.3;
+		margin-top: 70px;
+	}
+	.ahc-texts{
+		padding: 200px 100px;
+	}
+	.history-btn{
+		margin-top: 60px;
+	}
+	.cdo-pic{
+		height: 700px;
+	}
+	.cdo-text{
+		padding-top: 220px;
+	}
+	.networking-card-bg{
+		background-size: cover;
+		height: 450px;
+	}
+	.networking-card-texts p{
+		font-size: 20px;
+    	line-height: 1.2;
+	}
+	.networking-press h3{
+		font-size: 28px;
+	}
+	.socials-blog-links{
+		padding: 200px 50px;
+	}
+	.ngl-item{
+		height: 600px;
+	}
+	.gallery-bg{
+		height: 550px;
+	}
+	.membership-intro-texts{
+		padding: 200px;
+	}
+	.membership-intro-texts h1{
+		font-size: 34px;
+	}
+	.membership-intro-texts p{
+		font-size: 24px;
+	}
+	.mbc-ico{
+		padding: 100px;
+		display: flex;
+		justify-content: center;
 	}
 }
 
