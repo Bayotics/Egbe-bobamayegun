@@ -281,7 +281,7 @@
 		
 		<!-- Start Fun-facts -->
 		<div id="fun-facts" class="fun-facts section overlay">
-			<div class="container">
+			<div class="container scroll-zoom-in">
 				<div class="row">
 					<div class="col-lg-3 col-md-6 col-12">
 						<!-- Start Single Fun -->
@@ -345,7 +345,7 @@
 		<!--/ End Fun-facts -->
 		
 		<!-- Start Why choose -->
-		<section class="why-choose section" >
+		<section class="why-choose section scroll-slide-in" >
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
@@ -636,7 +636,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="joinus-community">
+				<div class="joinus-community community-zoom-in">
 					<div class="community-img">
 						<img src="./img/bobamayegun-pics/social/social-right.png" alt="social community"/>
 					</div>
@@ -888,7 +888,38 @@
 			<!--/ End Copyright -->
 		</footer>
 		<!--/ End Footer Area -->
-		
+		<script>
+			// Slide in
+		const slidingNewsletter = document.querySelector('.scroll-slide-in');
+
+		window.addEventListener('scroll', () => {
+			const {scrollTop, clientHeight} = document.documentElement;
+			const topElementToTopViewport = slidingNewsletter.getBoundingClientRect().top;
+			if(scrollTop > (scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.8){
+				slidingNewsletter.classList.add('active')
+			}
+		})
+
+			// Zoom in
+			const zoomOnScroll = document.querySelector('.scroll-zoom-in');
+
+			window.addEventListener('scroll', () => {
+			const {scrollTop, clientHeight} = document.documentElement;
+			const topElementToTopViewport = zoomOnScroll.getBoundingClientRect().top;
+			if(scrollTop > (scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.8){
+				zoomOnScroll.classList.add('active')
+			}
+		})
+		// Zoom in for community
+		const zoomOnScrollCommunity = document.querySelector('.community-zoom-in');
+			window.addEventListener('scroll', () => {
+				const {scrollTop, clientHeight} = document.documentElement;
+				const topElementToTopViewport = zoomOnScrollCommunity.getBoundingClientRect().top;
+				if(scrollTop > (scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.8){
+					zoomOnScrollCommunity.classList.add('active')
+				}
+			})
+		</script>
 		<!-- jquery Min JS -->
         <script src="js/jquery.min.js"></script>
 		<!-- jquery Migrate JS -->
